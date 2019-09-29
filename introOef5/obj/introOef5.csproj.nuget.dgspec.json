@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DocumentsHDD\\AP\\AI Programming\\introOef5\\introOef5.csproj": {}
+    "C:\\Users\\PJ\\Documents\\AIProgramming\\introOef5\\introOef5.csproj": {}
   },
   "projects": {
-    "D:\\DocumentsHDD\\AP\\AI Programming\\introOef5\\introOef5.csproj": {
+    "C:\\Users\\PJ\\Documents\\AIProgramming\\introOef5\\introOef5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DocumentsHDD\\AP\\AI Programming\\introOef5\\introOef5.csproj",
+        "projectUniqueName": "C:\\Users\\PJ\\Documents\\AIProgramming\\introOef5\\introOef5.csproj",
         "projectName": "introOef5",
-        "projectPath": "D:\\DocumentsHDD\\AP\\AI Programming\\introOef5\\introOef5.csproj",
-        "packagesPath": "C:\\Users\\pj1\\.nuget\\packages\\",
-        "outputPath": "D:\\DocumentsHDD\\AP\\AI Programming\\introOef5\\obj\\",
+        "projectPath": "C:\\Users\\PJ\\Documents\\AIProgramming\\introOef5\\introOef5.csproj",
+        "packagesPath": "C:\\Users\\PJ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PJ\\Documents\\AIProgramming\\introOef5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pj1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -44,16 +44,23 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

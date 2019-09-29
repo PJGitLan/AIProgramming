@@ -17,16 +17,16 @@ namespace introOef5
             while (true)
             {
                 distanceIn = Console.ReadLine();
-                 distance = float.Parse(distanceIn);
+                distance = float.Parse(distanceIn);
 
                 if (valAvailable == true)
                 {
                     relVelocity = (prevDistance - distance) / (1 / refreshRate);
                     collisionTime = distance / relVelocity;
 
-                    if (collisionTime < 5 && collisionTime>0)
+                    if (collisionTime < 5 && collisionTime > 0)
                     {
-                        Console.WriteLine("Brake");
+                        Console.WriteLine("\nBrake\n");
                     }
                 }
                 Console.WriteLine($"refreshRate = {refreshRate}");
@@ -36,8 +36,9 @@ namespace introOef5
                 Console.WriteLine($"prevDistance = {prevDistance}");
                 Console.WriteLine($"collisionTime = {collisionTime}");
                 Console.WriteLine($"distanceIn = {distanceIn}");
-
-                }
+                prevDistance = distance;
+                valAvailable = true;
+            }   
         }
     }
 }

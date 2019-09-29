@@ -9,3 +9,13 @@ D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.As
 D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.AssemblyInfo.cs
 D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.dll
 D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.pdb
+C:\Users\PJ\Documents\AIProgramming\introOef5\bin\Debug\netcoreapp2.1\introOef5.deps.json
+C:\Users\PJ\Documents\AIProgramming\introOef5\bin\Debug\netcoreapp2.1\introOef5.runtimeconfig.json
+C:\Users\PJ\Documents\AIProgramming\introOef5\bin\Debug\netcoreapp2.1\introOef5.runtimeconfig.dev.json
+C:\Users\PJ\Documents\AIProgramming\introOef5\bin\Debug\netcoreapp2.1\introOef5.dll
+C:\Users\PJ\Documents\AIProgramming\introOef5\bin\Debug\netcoreapp2.1\introOef5.pdb
+C:\Users\PJ\Documents\AIProgramming\introOef5\obj\Debug\netcoreapp2.1\introOef5.csprojAssemblyReference.cache
+C:\Users\PJ\Documents\AIProgramming\introOef5\obj\Debug\netcoreapp2.1\introOef5.AssemblyInfoInputs.cache
+C:\Users\PJ\Documents\AIProgramming\introOef5\obj\Debug\netcoreapp2.1\introOef5.AssemblyInfo.cs
+C:\Users\PJ\Documents\AIProgramming\introOef5\obj\Debug\netcoreapp2.1\introOef5.dll
+C:\Users\PJ\Documents\AIProgramming\introOef5\obj\Debug\netcoreapp2.1\introOef5.pdb
