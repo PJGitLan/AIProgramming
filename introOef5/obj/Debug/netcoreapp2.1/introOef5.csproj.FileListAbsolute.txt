@@ -1,0 +1,11 @@
+D:\DocumentsHDD\AP\AI Programming\introOef5\bin\Debug\netcoreapp2.1\introOef5.deps.json
+D:\DocumentsHDD\AP\AI Programming\introOef5\bin\Debug\netcoreapp2.1\introOef5.runtimeconfig.json
+D:\DocumentsHDD\AP\AI Programming\introOef5\bin\Debug\netcoreapp2.1\introOef5.runtimeconfig.dev.json
+D:\DocumentsHDD\AP\AI Programming\introOef5\bin\Debug\netcoreapp2.1\introOef5.dll
+D:\DocumentsHDD\AP\AI Programming\introOef5\bin\Debug\netcoreapp2.1\introOef5.pdb
+D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.csprojAssemblyReference.cache
+D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.csproj.CoreCompileInputs.cache
+D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.AssemblyInfoInputs.cache
+D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.AssemblyInfo.cs
+D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.dll
+D:\DocumentsHDD\AP\AI Programming\introOef5\obj\Debug\netcoreapp2.1\introOef5.pdb
