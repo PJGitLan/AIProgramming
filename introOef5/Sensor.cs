@@ -6,15 +6,36 @@ namespace introOef5
 {
     class Sensor
     {
-        public int refreshRate { get; set; } = 1;
-        public bool valAvailable { get; set; } = false;
+        // public int refreshRate { get; set; } = Convert.ToInt32(Console.ReadLine());
 
-        private String distanceIn;
-        public String DistanceIn
+        private int refreshRate;
+
+        public int RefreshRate
         {
-            get { return distanceIn; }
-            set { distanceIn = Console.ReadLine(); }
+            get { return refreshRate; }
+            set 
+            {
+                Console.WriteLine("Set sensors refreshrate: ");
+                refreshRate = Convert.ToInt32(Console.ReadLine());
+            }
         }
 
+
+        private float distanceIn;
+        public float DistanceIn
+        {
+            get { return distanceIn; }
+            set 
+            { 
+                distanceIn = updateDistance(); 
+            }
+        }
+
+        public float updateDistance()
+        {
+            Console.WriteLine("Input Distance: ");
+            float distanceIn = float.Parse(Console.ReadLine());
+            return distanceIn;
+        }
     }
 }

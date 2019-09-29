@@ -4,18 +4,20 @@ using System.Text;
 
 namespace introOef5
 {
-    class car
+    class Car
     {
-        private float distance;
-
-        public car(float _distance)
+        
+        public Car()
         {
-            float distance = _distance;
+            Sensor sensor = new Sensor();
+            Distance = sensor.DistanceIn;
         }
+
+        public float Distance { get; set; }
         public float PrevDistance { get; set; }
         public float RelVelocity{ get; set; }
         public float CollisionTime { get; set; }
-        public bool ValAvailable { get; set; }
+        public bool ValAvailable { get; set; } = false;
 
         private void Brake()
         {
@@ -24,8 +26,16 @@ namespace introOef5
 
         private void saveDistance()
         {
-            PrevDistance = distance;
+            PrevDistance = Distance;
             ValAvailable = true;
+        }
+
+        public void printStatus() {
+            Console.WriteLine($"Distance = {Distance}");
+            Console.WriteLine($"prevDistance = {PrevDistance}");
+            Console.WriteLine($"RelVelocity = {RelVelocity}");
+            Console.WriteLine($"CollisionTime = {CollisionTime}");
+            Console.WriteLine($"ValAvailable = {ValAvailable}");
         }
     }
 }
