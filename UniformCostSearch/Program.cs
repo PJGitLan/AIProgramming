@@ -8,15 +8,11 @@ namespace UniformCostSearch
         {
             if (args.Length == 0)
             {
-                System.Console.WriteLine("Please enter a argument.");
+                System.Console.WriteLine("Please enter an argument.");
                 return;
             }
-
-
-            Console.WriteLine("test");
-                Console.WriteLine(args[0]);
-         
-
+        
+            Console.WriteLine(args[0]);
         }
     }
 }
