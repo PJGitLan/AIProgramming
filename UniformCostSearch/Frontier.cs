@@ -21,16 +21,17 @@ namespace UniformCostSearch
             int indexToRemove = index;
             
             foreach(Path p in Paths){
-                Console.WriteLine(p.Cost);
-                Console.WriteLine(cheapestPath.Cost);
+                //Console.WriteLine(p.Cost);
+                //Console.WriteLine(cheapestPath.Cost);
                 if (p.Cost < cheapestPath.Cost)
                 {
                     cheapestPath = p;
                     indexToRemove = index;
-                    Console.WriteLine(p.Cost);
+                    //Console.WriteLine(p.Cost);
                 }
                 index++;
             }
+            Console.WriteLine("--------------------------------------------");
             Paths.RemoveAt(indexToRemove); 
             return cheapestPath; 
         }
