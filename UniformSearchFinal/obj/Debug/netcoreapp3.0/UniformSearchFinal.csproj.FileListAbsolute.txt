@@ -1,0 +1,11 @@
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\bin\Debug\netcoreapp3.0\UniformSearchFinal.exe
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\bin\Debug\netcoreapp3.0\UniformSearchFinal.deps.json
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\bin\Debug\netcoreapp3.0\UniformSearchFinal.runtimeconfig.json
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\bin\Debug\netcoreapp3.0\UniformSearchFinal.runtimeconfig.dev.json
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\bin\Debug\netcoreapp3.0\UniformSearchFinal.dll
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\bin\Debug\netcoreapp3.0\UniformSearchFinal.pdb
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\obj\Debug\netcoreapp3.0\UniformSearchFinal.csprojAssemblyReference.cache
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\obj\Debug\netcoreapp3.0\UniformSearchFinal.AssemblyInfoInputs.cache
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\obj\Debug\netcoreapp3.0\UniformSearchFinal.AssemblyInfo.cs
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\obj\Debug\netcoreapp3.0\UniformSearchFinal.dll
+D:\DocumentsHDD\AP\AI Programming\UniformSearchFinal\obj\Debug\netcoreapp3.0\UniformSearchFinal.pdb

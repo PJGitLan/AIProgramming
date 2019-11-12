@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinaleAStarSearch", "FinaleAStarSearch.csproj", "{BEED19ED-73F6-49C3-84D1-E3E9AC2EA1FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEED19ED-73F6-49C3-84D1-E3E9AC2EA1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEED19ED-73F6-49C3-84D1-E3E9AC2EA1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEED19ED-73F6-49C3-84D1-E3E9AC2EA1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEED19ED-73F6-49C3-84D1-E3E9AC2EA1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4504F61-F271-4CA6-9F44-09432205D040}
+	EndGlobalSection
+EndGlobal

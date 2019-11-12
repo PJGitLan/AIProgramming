@@ -1,0 +1,11 @@
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\obj\Debug\netcoreapp3.0\FinaleAStarSearch.csprojAssemblyReference.cache
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\obj\Debug\netcoreapp3.0\FinaleAStarSearch.AssemblyInfoInputs.cache
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\obj\Debug\netcoreapp3.0\FinaleAStarSearch.AssemblyInfo.cs
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\bin\Debug\netcoreapp3.0\FinaleAStarSearch.exe
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\bin\Debug\netcoreapp3.0\FinaleAStarSearch.deps.json
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\bin\Debug\netcoreapp3.0\FinaleAStarSearch.runtimeconfig.json
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\bin\Debug\netcoreapp3.0\FinaleAStarSearch.runtimeconfig.dev.json
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\bin\Debug\netcoreapp3.0\FinaleAStarSearch.dll
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\bin\Debug\netcoreapp3.0\FinaleAStarSearch.pdb
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\obj\Debug\netcoreapp3.0\FinaleAStarSearch.dll
+D:\DocumentsHDD\AP\AI Programming\FinaleAStarSearch\obj\Debug\netcoreapp3.0\FinaleAStarSearch.pdb
