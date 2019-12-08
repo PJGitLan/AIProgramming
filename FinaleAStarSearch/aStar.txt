@@ -1,6 +1,6 @@
 Antwerpen
 Parijs
-Antwerpen 300: Rotterdam 8 Hasselt 10 Brussel 7 Gent 9
+Antwerpen 300: Rotterdam 8 Hasselt 10 Brussel 7 Gent 100
 Rotterdam 372: Antwerpen 8
 Hasselt 315: Antwerpen 10
 Brussel 264: Antwerpen 7 Charleroi 6 Gent 10

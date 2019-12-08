@@ -1,0 +1,11 @@
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\bin\Debug\netcoreapp3.0\MiniMaxAlgorithm.exe
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\bin\Debug\netcoreapp3.0\MiniMaxAlgorithm.deps.json
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\bin\Debug\netcoreapp3.0\MiniMaxAlgorithm.runtimeconfig.json
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\bin\Debug\netcoreapp3.0\MiniMaxAlgorithm.runtimeconfig.dev.json
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\bin\Debug\netcoreapp3.0\MiniMaxAlgorithm.dll
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\bin\Debug\netcoreapp3.0\MiniMaxAlgorithm.pdb
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\obj\Debug\netcoreapp3.0\MiniMaxAlgorithm.csprojAssemblyReference.cache
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\obj\Debug\netcoreapp3.0\MiniMaxAlgorithm.AssemblyInfoInputs.cache
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\obj\Debug\netcoreapp3.0\MiniMaxAlgorithm.AssemblyInfo.cs
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\obj\Debug\netcoreapp3.0\MiniMaxAlgorithm.dll
+D:\DocumentsHDD\AP\AI Programming\MiniMaxAlgorithm\obj\Debug\netcoreapp3.0\MiniMaxAlgorithm.pdb
