@@ -39,7 +39,7 @@ namespace MiniMaxAlgorithm
             {
                 for (int col = 0; col < 7; col++)
                 {
-                    if (Board[row, col].Equals(EMPTY))
+                    if (Board[row, col].Equals(EMPTY) && (row+1 > 5 || Board[row+1, col].Equals(PLAYER2) || Board[row+1, col].Equals(PLAYER1)))
                     {
                         string[,] newBoard = Duplicate();
                         newBoard[row, col] = TurnPlayer1 ? PLAYER1 : PLAYER2;

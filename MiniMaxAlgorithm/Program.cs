@@ -12,52 +12,35 @@ namespace MiniMaxAlgorithm
 
             string[,] initialBoard = new string[,]
             {
-                {ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY },
-                {ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY },
-                {ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY },
-                {ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY },
-                {ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY },
-                {ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY }
+                {ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.PLAYER1 },
+                {ConnectFourBoard.EMPTY, ConnectFourBoard.PLAYER2, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.EMPTY, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER2 },
+                {ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER2 },
+                {ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER1 },
+                {ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER2 },
+                {ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER1, ConnectFourBoard.PLAYER2, ConnectFourBoard.PLAYER2 }
             };
 
+            // We assume the AI starts first and tries to maximize its value. This is actually maximin instead of minimax, but the gist is the same
             Node currState = new ConnectFourBoard(initialBoard, true);
-            while(!currState.TerminalTest() && !currState.GameDraw())
+            while (!currState.TerminalTest() && !currState.GameDraw())
             {
+                // Let AI make move
+                currState = algorithm.MinimaxDecision(currState.PossibleMoves());
+
+                // Wait for player input
                 currState.Log();
 
-                if(currState.TerminalTest() || currState.GameDraw())
+                if (currState.TerminalTest() || currState.GameDraw())
                 {
                     break;
                 }
 
-                bool done = false;
+                Console.WriteLine("Give row,column:");
+                string input = Console.ReadLine();
+                IEnumerable<int> rowCol = input.Split(",").Select(str => Convert.ToInt32(str));
+
                 string[,] currBoardConfig = ((ConnectFourBoard)currState).Duplicate();
-                do
-                {
-                    Console.WriteLine("Give column:");
-                    string input = Console.ReadLine();
-                    int column = Convert.ToInt32(input);
-
-                    for (int row = 5; row >= 0; row--)
-                    {
-
-                        if (currBoardConfig[row, column] == ConnectFourBoard.EMPTY && !done)
-                        {
-                            currBoardConfig[row, column] = ConnectFourBoard.PLAYER2;
-                            done = true;
-                            Console.WriteLine(row);
-                        }
-
-                        else if (row == 0 && !done)
-                        {
-                            Console.WriteLine("Can't place coin there");
-                        }
-
-                        
-                    }
-                } while (done);
-
-                Console.WriteLine( "test" );
+                currBoardConfig[rowCol.First(), rowCol.Last()] = ConnectFourBoard.PLAYER2;
 
                 currState = new ConnectFourBoard(currBoardConfig, true);
                 currState.Log();
