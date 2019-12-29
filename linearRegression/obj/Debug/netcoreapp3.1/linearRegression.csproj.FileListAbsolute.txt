@@ -1,0 +1,11 @@
+C:\Users\PJ\source\repos\linearRegression\bin\Debug\netcoreapp3.1\linearRegression.exe
+C:\Users\PJ\source\repos\linearRegression\bin\Debug\netcoreapp3.1\linearRegression.deps.json
+C:\Users\PJ\source\repos\linearRegression\bin\Debug\netcoreapp3.1\linearRegression.runtimeconfig.json
+C:\Users\PJ\source\repos\linearRegression\bin\Debug\netcoreapp3.1\linearRegression.runtimeconfig.dev.json
+C:\Users\PJ\source\repos\linearRegression\bin\Debug\netcoreapp3.1\linearRegression.dll
+C:\Users\PJ\source\repos\linearRegression\bin\Debug\netcoreapp3.1\linearRegression.pdb
+C:\Users\PJ\source\repos\linearRegression\obj\Debug\netcoreapp3.1\linearRegression.csprojAssemblyReference.cache
+C:\Users\PJ\source\repos\linearRegression\obj\Debug\netcoreapp3.1\linearRegression.AssemblyInfoInputs.cache
+C:\Users\PJ\source\repos\linearRegression\obj\Debug\netcoreapp3.1\linearRegression.AssemblyInfo.cs
+C:\Users\PJ\source\repos\linearRegression\obj\Debug\netcoreapp3.1\linearRegression.dll
+C:\Users\PJ\source\repos\linearRegression\obj\Debug\netcoreapp3.1\linearRegression.pdb
