@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9EnxK5c5NkddAby1GdNwKLHy8pBPMAtY0U0l2TryaRrYJ9+CI9AGyb5bZ5Tqiq3yJYJ6zpxAl7K3TbJU1Wy1UQ==",
+  "success": true,
+  "projectFilePath": "E:\\DocumentsHDD\\AP\\AI Programming\\FinaleAStarSearch\\FinaleAStarSearch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pj1\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\pj1\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\pj1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\pj1\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
